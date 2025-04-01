@@ -7,7 +7,13 @@ using namespace std;
 int main() {
     cout << "Hello, World!" << endl;
     cout << "Git is now tracking this project!" << endl;
-    return 0;
+
+    int age;
+    cout << "Enter Age: " << std::endl;
+   
+    std::cin >> age;
+
+    cout << "Your age is " << age << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
