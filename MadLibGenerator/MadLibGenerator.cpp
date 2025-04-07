@@ -15,13 +15,13 @@ int main() {
     std::cin.ignore(); 
 
     std::cout << "Enter a plural noun: ";
-    std::getline(std::cin, pluralNoun);
+    std::cin >> pluralNoun;
 
     std::cout << "Enter a singular noun: ";
-    std::getline(std::cin, noun);
+    std::cin >> noun;
 
-    MadLib myStory(number, pluralNoun, noun);
-    myStory.generateMadLib();
+    MadLib madLib(number, pluralNoun, noun);
+    madLib.generateMadLib();
 
     return 0;
 }
