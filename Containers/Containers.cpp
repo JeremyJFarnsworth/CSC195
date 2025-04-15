@@ -37,10 +37,18 @@ int main()
     cout << chemicals << endl; // returns address of first element in the array
 
     cout << "------------------" << endl;
+
+    int size = sizeof(chemicals) / sizeof(chemicals[0]);
     
-    for (size_t i = 0; i < chemicals->size(); i++) {
-       //cout << chemicals[i] << endl;
+    for (int i = 0; i < size; i++) {
+       cout << &chemicals[i] << endl;
     };
+
+    cout << "-----------------" << endl;
+
+    for (string chemical : chemicals) {
+        cout << chemical << endl;
+    }
 
     cout << "------------------" << endl;
 

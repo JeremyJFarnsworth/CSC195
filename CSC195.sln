@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryReview", "MemoryRevie
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers", "Containers\Containers.vcxproj", "{3A3C06DE-B2A3-403F-9F40-79BC4FA77E4C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainersAssignment", "ContainersAssignment\ContainersAssignment.vcxproj", "{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{3A3C06DE-B2A3-403F-9F40-79BC4FA77E4C}.Release|x64.Build.0 = Release|x64
 		{3A3C06DE-B2A3-403F-9F40-79BC4FA77E4C}.Release|x86.ActiveCfg = Release|Win32
 		{3A3C06DE-B2A3-403F-9F40-79BC4FA77E4C}.Release|x86.Build.0 = Release|Win32
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Debug|x64.ActiveCfg = Debug|x64
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Debug|x64.Build.0 = Debug|x64
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Debug|x86.Build.0 = Debug|Win32
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Release|x64.ActiveCfg = Release|x64
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Release|x64.Build.0 = Release|x64
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Release|x86.ActiveCfg = Release|Win32
+		{9EBBE02C-69F1-433E-8892-4E200BBB2A3B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
