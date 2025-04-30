@@ -7,7 +7,7 @@ namespace jjf
 {
 	class Point
 	{
-	public:
+	private:
 		float x, y;
 
 	public:
@@ -16,6 +16,7 @@ namespace jjf
 		Point(float x, float y) : x{ x }, y{ y } {}
 
 		void Write(std::ostream& ostream);
+		friend std::ostream& operator << (std::ostream& ostream, Point& p);
 
 		void Add(Point& point);
 		Point& operator + (Point& point);

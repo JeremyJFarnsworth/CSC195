@@ -25,4 +25,10 @@ namespace jjf
 	{
 		return Point(x * s, y * s);
 	}
+
+	std::ostream& operator << (std::ostream& ostream, Point& p)
+	{
+		ostream << p.x << " : " << p.y << std::endl;
+		return ostream;
+	}
 }

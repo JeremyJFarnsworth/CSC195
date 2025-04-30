@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "Point.h"
+#include <ostream>
 
 using namespace jjf;
 using namespace std;
@@ -17,6 +18,13 @@ using namespace std;
 //    return point;
 //}
 
+//void operator << (ostream& ostream,Point& p)
+//    {
+//    ostream << p.x << " : " << p.y << endl;
+//    }
+
+
+
 int main()
 {
     Point point1(10, 14);
@@ -27,7 +35,10 @@ int main()
     //point1.Add(point2); ----- instead of a method call
     Point point3 = (point1 + point2) * 3.0f;  // suntactical suger(makes code prettier), operators user-defined meaning
 
-    point3.Write(cout);
+    //point3.Write(cout);
+
+    cout << point3 << point2;
+    
 }
 
 
